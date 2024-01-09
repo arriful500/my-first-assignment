@@ -1,4 +1,4 @@
-body{
+body {
   text-align: center;
 }
 
@@ -87,7 +87,7 @@ body{
 
 .section-titles {
   color: #FFF;
-  font-family: Merriweather;
+  font-family: 'Merriweather', serif;
   font-size: 64px;
   font-style: normal;
   font-weight: 900;
@@ -96,7 +96,7 @@ body{
 }
 
 .section {
-  background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./B9A1-New-Year-New-Mission-main/resources/Vectorrr.png');
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./B9A1-New-Year-New-Mission-main/resources/Vectorrr.png');
   background-repeat: no-repeat;
   width: 1320px;
   height: 600px;
@@ -108,7 +108,7 @@ body{
   border-radius: 15px;
 }
 
-.vectorImgContent{
+.vectorImgContent {
   text-align: left;
   max-width: 700px;
 }
@@ -145,7 +145,7 @@ body{
   font-weight: 600;
   line-height: 56px;
   text-transform: capitalize;
-  max-width:  1320px;
+  max-width: 1320px;
   height: 482px;
   flex-shrink: 0;
   background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
@@ -168,4 +168,122 @@ body{
 
 span {
   color: black;
+}
+
+.section3 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 1320px;
+  height: 600px;
+  margin: auto;
+  padding: 0;
+
+}
+
+.image3 {
+  border-radius: 463px;
+  border: 15px solid #F00;
+  width: 364.844px;
+  height: 364.844px;
+  padding: 80px;
+}
+
+.img4 {
+  width: 140px;
+  height: 140px;
+  flex-shrink: 0;
+
+
+}
+
+.section3-p {
+  color: rgba(7, 2, 17, 0.60);
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+
+
+}
+
+.section3-h2 {
+  color: #F00;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
+}
+
+.section3-h3 {
+  color: #070211;
+  font-family: 'Merriweather', serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+
+}
+
+.year {
+  color: #F00;
+  font-family: 'Inter', sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+}
+
+.year-p {
+  color: rgba(7, 2, 17, 0.60);
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+
+}
+
+.section4 {
+  margin-top: 30px;
+  background-image: url('./B9A1-New-Year-New-Mission-main/resources/Rectangle\ 2.png');
+  height: 329px;
+  width: 1320px;
+  background-repeat: no-repeat;
+
+}
+
+.btn3,
+.btn4,
+.btn5,
+.btn6,
+.btn7,
+.btn8 {
+  width: 424px;
+  height: 450px;
+  flex-shrink: 0;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-transition-duration:1s;
+  transition-duration: 1s;
+  box-shadow: #F00;
+  
+}
+.btn3:hover:focus:active{
+  box-shadow:50px hsla(0, 91%, 46%, 0.954);
+  -webkit-transform: scale(2,2);
+  transform: scale(2.2);
+}
+.section5{
+  align-items: center;
+margin: auto;
+}  
+.section5-div{
+  align-items: start;
 }
